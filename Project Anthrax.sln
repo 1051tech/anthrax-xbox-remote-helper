@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.25928.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthrax.Android", "Anthrax.Android\Anthrax.Android.csproj", "{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthrax.Lib", "Anthrax.Lib\Anthrax.Lib.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthrax.Api", "Anthrax.Api\Anthrax.Api.csproj", "{60D87450-5CC8-42D8-9B48-6901AB0F53FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBC3FD3-C3FD-4B47-A320-28C3A72388C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D87450-5CC8-42D8-9B48-6901AB0F53FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D87450-5CC8-42D8-9B48-6901AB0F53FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D87450-5CC8-42D8-9B48-6901AB0F53FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D87450-5CC8-42D8-9B48-6901AB0F53FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

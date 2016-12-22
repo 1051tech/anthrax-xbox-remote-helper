@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:background="@drawable/background"
+    p1:backgroundTint="#af000000"
+    p1:backgroundTintMode="src_over">
+    <TextView
+        p1:text="IP Address:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/textView1"
+        p1:textColor="@android:color/background_light"
+        p1:layout_marginTop="50dip"
+        p1:layout_centerHorizontal="true" />
+    <TextView
+        p1:text="N/A"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/tvIPAddress"
+        p1:textColor="@android:color/background_light"
+        p1:layout_centerHorizontal="true"
+        p1:layout_below="@id/textView1" />
+    <Button
+        p1:text="Reinitialize"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/btnReinitialize"
+        p1:layout_centerHorizontal="true"
+        style="@android:style/Widget.Material.Light.Button"
+        p1:paddingLeft="15dip"
+        p1:paddingRight="15dip"
+        p1:background="@android:color/black"
+        p1:textColor="@android:color/background_light"
+        p1:clickable="true"
+        p1:layout_alignParentBottom="true"
+        p1:layout_marginBottom="50dip"
+        p1:enabled="false" />
+    <TextView
+        p1:text="Xbox Status:"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/tvIPAddress"
+        p1:id="@+id/textView2"
+        p1:layout_centerHorizontal="true"
+        p1:textColor="@android:color/background_light"
+        p1:layout_marginTop="30dip" />
+    <TextView
+        p1:text="N/A"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/textView2"
+        p1:id="@+id/tvXboxStatus"
+        p1:layout_centerHorizontal="true"
+        p1:textColor="@android:color/background_light" />
+    <Button
+        p1:text="Power Xbox"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_above="@id/btnReinitialize"
+        p1:id="@+id/btnXboxToggle"
+        p1:layout_centerHorizontal="true"
+        p1:layout_marginBottom="50dip"
+        p1:enabled="false" />
+</RelativeLayout>
